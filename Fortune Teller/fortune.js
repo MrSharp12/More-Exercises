@@ -8,9 +8,9 @@ var job = ['Dentist', 'Bean Counter', 'Poison Tester', 'Grave Digger'];
 function tellFortune() {
     
   var randomKids = kids[Math.floor(Math.random() * kids.length)];
-  var randomPartner = partner[Math.floor(Math.random() * kids.length)];
-  var randomHome = home[Math.floor(Math.random() * kids.length)];
-  var randomJob = job[Math.floor(Math.random() * kids.length)];  
+  var randomPartner = partner[Math.floor(Math.random() * partner.length)];
+  var randomHome = home[Math.floor(Math.random() * home.length)];
+  var randomJob = job[Math.floor(Math.random() * job.length)];  
 
   alert('You will be a ' + randomJob + ' in ' + randomHome + ' married to ' + randomPartner + ' with ' + randomKids + ' kids.');
 }
